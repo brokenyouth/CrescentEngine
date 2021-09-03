@@ -25,7 +25,6 @@ namespace crescent
         ShaderManager::m_pInstance->m_ShaderMap["defaultShader"].CreateUniform("modelMatrix");
         ShaderManager::m_pInstance->m_ShaderMap["defaultShader"].CreateUniform("diffuse0");
 
-
         AddShader("lightShader", ShaderProgram("shaders/Lighting/lightingVertex.glsl", "shaders/Lighting/lightingFragment.glsl"));
         ShaderManager::m_pInstance->m_ShaderMap["lightShader"].CreateUniform("projectionMatrix");
         ShaderManager::m_pInstance->m_ShaderMap["lightShader"].CreateUniform("viewMatrix");
@@ -40,7 +39,7 @@ namespace crescent
         ShaderManager::m_pInstance->m_ShaderMap["lightShader"].CreateUniform("light.specular");
         ShaderManager::m_pInstance->m_ShaderMap["lightShader"].CreateUniform("light.intensity");
 
-        AddShader("shadowShader", ShaderProgram("shaders/Shadow/shadowVertex.glsl", "shaders/Lighting/shadowFragment.glsl"));
+        AddShader("shadowShader", ShaderProgram("shaders/Shadow/shadowVertex.glsl", "shaders/Shadow/shadowFragment.glsl"));
         ShaderManager::m_pInstance->m_ShaderMap["shadowShader"].CreateUniform("modelMatrix");
         ShaderManager::m_pInstance->m_ShaderMap["shadowShader"].CreateUniform("projectionMatrix");
 
