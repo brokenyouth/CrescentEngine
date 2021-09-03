@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="zlib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\assimp\;CMake Files\assimp\include\;CMake Files\assimp\include\assimp\;CMake Files\assimp\cmake-modules\;CMake Files\assimp\contrib\;CMake Files\assimp\contrib\zlib\;CMake Files\assimp\code\;CMake Files\assimp\tools\;CMake Files\assimp\tools\assimp_cmd\;CMake Files\assimp\test\;CMake Files\assimp\test\headercheck\;CMake Files\glfw\;CMake Files\glfw\CMake\;CMake Files\glfw\src\;CMake Files\glew\;CMake Files\CrescentEngine\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Dev/engine stuff/CrescentEngine/cmake-build-debug/assimp/contrib/zlib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Dev\engine stuff\CrescentEngine\cmake-build-debug\assimp\contrib\zlib\Makefile&quot; VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Dev\engine stuff\CrescentEngine\cmake-build-debug\assimp\contrib\zlib\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Dev\engine stuff\CrescentEngine\cmake-build-debug\assimp\contrib\zlib\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Dev\engine stuff\CrescentEngine\cmake-build-debug\assimp\contrib\zlib\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlibstatic">
+				<Option output="C:/Dev/engine stuff/CrescentEngine/cmake-build-debug/assimp/contrib/zlib/zlibstaticd.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Dev/engine stuff/CrescentEngine/cmake-build-debug/assimp/contrib/zlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DWIN32_LEAN_AND_MEAN"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DNO_FSEEKO"/>
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE"/>
+					<Add option="-D_CRT_NONSTDC_NO_DEPRECATE"/>
+					<Add directory="C:/Dev/engine stuff/CrescentEngine/cmake-build-debug/assimp/include"/>
+					<Add directory="C:/Dev/engine stuff/CrescentEngine/cmake-build-debug/assimp"/>
+					<Add directory="C:/Dev/engine stuff/CrescentEngine/assimp/include"/>
+					<Add directory="C:/Dev/engine stuff/CrescentEngine/assimp/code"/>
+					<Add directory="C:/Dev/engine stuff/CrescentEngine/assimp/."/>
+					<Add directory="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib"/>
+					<Add directory="C:/Dev/engine stuff/CrescentEngine/cmake-build-debug/assimp/contrib/zlib"/>
+					<Add directory="C:/Dev/engine stuff/CrescentEngine"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Dev\engine stuff\CrescentEngine\cmake-build-debug\assimp\contrib\zlib\Makefile&quot; VERBOSE=1 zlibstatic"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Dev\engine stuff\CrescentEngine\cmake-build-debug\assimp\contrib\zlib\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Dev\engine stuff\CrescentEngine\cmake-build-debug\assimp\contrib\zlib\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Dev\engine stuff\CrescentEngine\cmake-build-debug\assimp\contrib\zlib\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlibstatic/fast">
+				<Option output="C:/Dev/engine stuff/CrescentEngine/cmake-build-debug/assimp/contrib/zlib/zlibstaticd.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Dev/engine stuff/CrescentEngine/cmake-build-debug/assimp/contrib/zlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DWIN32_LEAN_AND_MEAN"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DNO_FSEEKO"/>
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE"/>
+					<Add option="-D_CRT_NONSTDC_NO_DEPRECATE"/>
+					<Add directory="C:/Dev/engine stuff/CrescentEngine/cmake-build-debug/assimp/include"/>
+					<Add directory="C:/Dev/engine stuff/CrescentEngine/cmake-build-debug/assimp"/>
+					<Add directory="C:/Dev/engine stuff/CrescentEngine/assimp/include"/>
+					<Add directory="C:/Dev/engine stuff/CrescentEngine/assimp/code"/>
+					<Add directory="C:/Dev/engine stuff/CrescentEngine/assimp/."/>
+					<Add directory="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib"/>
+					<Add directory="C:/Dev/engine stuff/CrescentEngine/cmake-build-debug/assimp/contrib/zlib"/>
+					<Add directory="C:/Dev/engine stuff/CrescentEngine"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Dev\engine stuff\CrescentEngine\cmake-build-debug\assimp\contrib\zlib\Makefile&quot; VERBOSE=1 zlibstatic/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Dev\engine stuff\CrescentEngine\cmake-build-debug\assimp\contrib\zlib\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Dev\engine stuff\CrescentEngine\cmake-build-debug\assimp\contrib\zlib\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Dev\engine stuff\CrescentEngine\cmake-build-debug\assimp\contrib\zlib\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib/adler32.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib/compress.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib/crc32.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib/crc32.h">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib/deflate.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib/deflate.h">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib/gzclose.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib/gzguts.h">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib/gzlib.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib/gzread.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib/gzwrite.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib/infback.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib/inffast.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib/inffast.h">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib/inffixed.h">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib/inflate.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib/inflate.h">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib/inftrees.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib/inftrees.h">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib/trees.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib/trees.h">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib/uncompr.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib/zlib.h">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib/zutil.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib/zutil.h">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/cmake-build-debug/assimp/contrib/zlib/zconf.h">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\assimp\"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/assimp.pc.in">
+			<Option virtualFolder="CMake Files\assimp\"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/revision.h.in">
+			<Option virtualFolder="CMake Files\assimp\"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/include/assimp/config.h.in">
+			<Option virtualFolder="CMake Files\assimp\include\assimp\"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/cmake-modules/FindPkgMacros.cmake">
+			<Option virtualFolder="CMake Files\assimp\cmake-modules\"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/cmake-modules/FindRT.cmake">
+			<Option virtualFolder="CMake Files\assimp\cmake-modules\"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/cmake-modules/FindZLIB.cmake">
+			<Option virtualFolder="CMake Files\assimp\cmake-modules\"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/cmake-modules/PrecompiledHeader.cmake">
+			<Option virtualFolder="CMake Files\assimp\cmake-modules\"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/cmake-modules/assimp-plain-config.cmake.in">
+			<Option virtualFolder="CMake Files\assimp\cmake-modules\"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\assimp\contrib\zlib\"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib/zconf.h.cmakein">
+			<Option virtualFolder="CMake Files\assimp\contrib\zlib\"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/contrib/zlib/zlib.pc.cmakein">
+			<Option virtualFolder="CMake Files\assimp\contrib\zlib\"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\assimp\code\"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/tools/assimp_cmd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\assimp\tools\assimp_cmd\"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\assimp\test\"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/assimp/test/headercheck/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\assimp\test\headercheck\"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\glfw\"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/glfw/CMake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/glfw/CMake/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/glfw/CMake/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/glew/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\glew\"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/glew/GeneratePkgConfig.cmake">
+			<Option virtualFolder="CMake Files\glew\"/>
+		</Unit>
+		<Unit filename="C:/Dev/engine stuff/CrescentEngine/CrescentEngine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CrescentEngine\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
